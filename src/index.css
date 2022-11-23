@@ -1,0 +1,30 @@
+body{
+  background-image: url(../earth-g03b4d302c_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  height: 100vh;
+}
+.leftBlock, .rightBlock{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width:576px){
+  body{
+    background-image: url(../pexels-pixabay-220201.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .leftBlock{
+    height: 20%;
+  }
+  .rightBlock{
+    height: 80%;
+  }
+  img{
+    border-bottom:1px solid black ;
+  }
+}
